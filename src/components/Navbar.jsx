@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import logo from '../assets/logo.png'
+import logo from '/assets/logo.png'
 import { ThemeContext } from '@/context/ThemeContext'
 import { toast } from 'react-toastify'
 import { NavLink } from 'react-router-dom'

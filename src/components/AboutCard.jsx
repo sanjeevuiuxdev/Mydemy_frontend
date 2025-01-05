@@ -20,7 +20,7 @@ const AboutCard = () => {
                             <div className='about_card'>
                                 <span className='number'>01</span>
                                 <div className='card_img'>
-                                    <img src="../src/assets/promo-icon-1.png" alt="" />
+                                    <img src="/assets/promo-icon-1.png" alt="" />
                                 </div>
                                 <div className='card_content'>
                                     <h3>80+ Online Courses</h3>
@@ -35,7 +35,7 @@ const AboutCard = () => {
                             <div className='about_card'>
                                 <span className='number'>02</span>
                                 <div className='card_img'>
-                                    <img src="../src/assets/promo-icon-3.png" alt="" />
+                                    <img src="/assets/promo-icon-3.png" alt="" />
                                 </div>
                                 <div className='card_content'>
                                     <h3>Top Instructors</h3>
@@ -50,7 +50,7 @@ const AboutCard = () => {
                             <div className='about_card'>
                                 <span className='number'>03</span>
                                 <div className='card_img'>
-                                    <img src="../src/assets/promo-icon-3.png" alt="" />
+                                    <img src="/assets/promo-icon-3.png" alt="" />
                                 </div>
                                 <div className='card_content'>
                                     <h3>Online Certificates</h3>
@@ -65,7 +65,7 @@ const AboutCard = () => {
                             <div className='about_card'>
                                 <span className='number'>04</span>
                                 <div className='card_img'>
-                                    <img src="../src/assets/promo-icon-4.png" alt="" />
+                                    <img src="/assets/promo-icon-4.png" alt="" />
                                 </div>
                                 <div className='card_content'>
                                     <h3>6000k+ Members</h3>

@@ -31,7 +31,7 @@ const HeroSection = () => {
                             <h1 className='banner_heading'>The World's Leading Distance Learning Provider</h1>
                             <p className='banner_para'>I'm here to help you find the confidence you need to feel amazing in your body! when an
                                 unknown printer took a galley of type and scrambled it ecimen.</p>
-                            <img className='banner_white_vector' src="../src/assets/hero-shape-11.png" alt="" />
+                            <img className='banner_white_vector' src="/assets/hero-shape-11.png" alt="" />
                             {/* <div>
                                 <form>
                                     <div style={{ width: "100%", margin: "auto", display: "flex", alignItems: "center", marginTop: "20px" }}>
@@ -55,10 +55,10 @@ const HeroSection = () => {
                         {/* banner side bar */}
                         <div className="col-lg-5">
                             <div >
-                                <img className='banner_right_img' src="../src/assets/hero-bg.png" alt="" />
+                                <img className='banner_right_img' src="/assets/hero-bg.png" alt="" />
                                 <div className='floating_box2'>
                                     <div className='imgs_icons'>
-                                        <img src='../src/assets/user.png' alt="" /> 
+                                        <img src='/assets/user.png' alt="" /> 
                                         <div className='count_instuctor'>
                                             <p>150+</p>
                                             <span>Assisted Students</span>

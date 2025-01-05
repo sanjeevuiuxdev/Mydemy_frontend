@@ -19,7 +19,7 @@ const Expert = () => {
                         <div className='col-xl-3'>
                             <div className='profile_card'>
                                 <div className='profile_card_img'>
-                                    <img src="../src/assets/team-9.png" alt="" />
+                                    <img src="/assets/team-9.png" alt="" />
                                 </div>
                                 <div className='profile_card_content'>
                                     <h3>Mason D. Logan</h3>
@@ -39,7 +39,7 @@ const Expert = () => {
                         <div className='col-xl-3'>
                             <div className='profile_card'>
                                 <div className='profile_card_img'>
-                                    <img src="../src/assets/team-10.png" alt="" />
+                                    <img src="/assets/team-10.png" alt="" />
                                 </div>
                                 <div className='profile_card_content'>
                                     <h3>Isabella E. Olivia</h3>
@@ -59,7 +59,7 @@ const Expert = () => {
                         <div className='col-xl-3'>
                             <div className='profile_card'>
                                 <div className='profile_card_img'>
-                                    <img src="../src/assets/team-11.png" alt="" />
+                                    <img src="/assets/team-11.png" alt="" />
                                 </div>
                                 <div className='profile_card_content'>
                                     <h3>David R. Connor</h3>
@@ -79,7 +79,7 @@ const Expert = () => {
                         <div className='col-xl-3'>
                             <div className='profile_card'>
                                 <div className='profile_card_img'>
-                                    <img src="../src/assets/team-12.png" alt="" />
+                                    <img src="/assets/team-12.png" alt="" />
                                 </div>
                                 <div className='profile_card_content'>
                                     <h3>Sophia S. Grace</h3>

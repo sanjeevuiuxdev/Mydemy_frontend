@@ -10,13 +10,13 @@ const Footer = () => {
                         <div className="col-xl-6">
                             <div className='footer_card'>
                                 <div className='bg'>
-                                    <img src="../src/assets/popular-shape-2.png" alt="" />
+                                    <img src="/assets/popular-shape-2.png" alt="" />
                                 </div>
                                 <div className='person_bg'>
-                                    <img src="../src/assets/popular-shape-1.png" alt="" />
+                                    <img src="/assets/popular-shape-1.png" alt="" />
                                 </div>
                                 <div className='person'>
-                                    <img src="../src/assets/popular-men-1.png" alt="" />
+                                    <img src="/assets/popular-men-1.png" alt="" />
                                 </div>
                                 <div>
                                     <p>Become Student</p>
@@ -30,13 +30,13 @@ const Footer = () => {
                         <div className="col-xl-6">
                             <div className='footer_card'>
                                 <div className='bg'>
-                                    <img src="../src/assets/popular-shape-2.png" alt="" />
+                                    <img src="/assets/popular-shape-2.png" alt="" />
                                 </div>
                                 <div className='person_bg'>
-                                    <img src="../src/assets/popular-shape-1.png" alt="" />
+                                    <img src="/assets/popular-shape-1.png" alt="" />
                                 </div>
                                 <div className='person'>
-                                    <img src="../src/assets/popular-men-2.png" alt="" />
+                                    <img src="/assets/popular-men-2.png" alt="" />
                                 </div>
                                 <div>
                                     <p>Become Student</p>
@@ -59,7 +59,7 @@ const Footer = () => {
                             {/* col 1 */}
                             <div className='col-xl-3'>
                                 <div className='footer_about'>
-                                    <img src="../src/assets/logo2.png" alt="logo" />
+                                    <img src="/assets/logo2.png" alt="logo" />
                                     <p>Globally deploy synergistic opportunities after state of techno create information without iterate impactful internal.</p>
                                     <div className='profile_card_media footer_social_icons'>
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
