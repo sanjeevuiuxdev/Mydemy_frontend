@@ -11,6 +11,7 @@ import Layout from './components/ui/Layout';
 import CourseProgress from './pages/CourseProgress';
 import Footer from './components/Footer';
 import AllCourses from './pages/AllCourses';
+import NotFound from './pages/NotFound';
 
 function App() {
 
@@ -21,9 +22,10 @@ function App() {
     <div>
       <ToastContainer />
       <Navbar />
-      
-      
+
+
       <Routes>
+        <Route path='*' element={<NotFound />}/>
         <Route path="/" element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/mylearning' element={<MyLearning />} />
@@ -36,7 +38,7 @@ function App() {
       {!noFooterRoute.includes(location.pathname) && <Footer />}
 
       {/* <Footer /> */}
-      
+
     </div>
   )
 }
