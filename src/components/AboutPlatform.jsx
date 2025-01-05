@@ -6,20 +6,20 @@ const AboutPlatform = () => {
     return (
         <div className='about_platform section_layout'>
             <div className='shape1'>
-                <img src="/src/assets/about-shape-1.png" alt="" />
+                <img src="../src/assets/about-shape-1.png" alt="" />
             </div>
             <div className='shape2'>
-                <img src="/src/assets/about-shape-2.png" alt="" />
+                <img src="../src/assets/about-shape-2.png" alt="" />
             </div>
             <div className='shape3'>
-                <img src="/src/assets/about-shape-3.png" alt="" />
+                <img src="../src/assets/about-shape-3.png" alt="" />
             </div>
             <div className='container'>
                 <div>
                     <div className='row' style={{ alignItems: "center" }}>
                         <div className='col-xl-6'>
                             <div className='about_platform_img'>
-                                <img src="/src/assets/about-img-3.png" alt="" />
+                                <img src="../src/assets/about-img-3.png" alt="" />
                             </div>
                         </div>
                         <div className='col-xl-6'>

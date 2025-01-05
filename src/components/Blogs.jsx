@@ -18,7 +18,7 @@ const Blogs = () => {
                     {/* <------------------------card start--------------------------> */}
                     <div className='col-xl-4'>
                         <div className='blog_card'>
-                            <img src="/src/assets/post-7.png" alt="" />
+                            <img src="../src/assets/post-7.png" alt="" />
                             <div className='blog_card_content'>
                                 <div className='time_date'>
                                     <i class="fa fa-clock-o" aria-hidden="true"></i>
@@ -36,7 +36,7 @@ const Blogs = () => {
                     {/* <------------------------card start--------------------------> */}
                     <div className='col-xl-4'>
                         <div className='blog_card'>
-                            <img src="/src/assets/post-8.png" alt="" />
+                            <img src="../src/assets/post-8.png" alt="" />
                             <div className='blog_card_content'>
                                 <div className='time_date'>
                                     <i class="fa fa-clock-o" aria-hidden="true"></i>
@@ -54,7 +54,7 @@ const Blogs = () => {
                     {/* <------------------------card start--------------------------> */}
                     <div className='col-xl-4'>
                         <div className='blog_card'>
-                            <img src="/src/assets/post-9.png" alt="" />
+                            <img src="../src/assets/post-9.png" alt="" />
                             <div className='blog_card_content'>
                                 <div className='time_date'>
                                     <i class="fa fa-clock-o" aria-hidden="true"></i>

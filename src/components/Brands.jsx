@@ -9,13 +9,13 @@ const Brands = () => {
     return (
         <div className='brand_section'>
         <div className='bg_shape'>
-            <img src="/src/assets/sponsor-shape.png" alt="" />
+            <img src="../src/assets/sponsor-shape.png" alt="" />
         </div>
         <div className='shape_star'>
-            <img src="/src/assets/sponsor-1 (1).png" alt="" />
+            <img src="../src/assets/sponsor-1 (1).png" alt="" />
         </div>
         <div className='share_star_mini'>
-            <img src="/src/assets/sponsor-2 (1).png" alt="" />
+            <img src="../src/assets/sponsor-2 (1).png" alt="" />
         </div>
             <div className='container'>
                 <div>
@@ -24,43 +24,43 @@ const Brands = () => {
                             <Swiper spaceBetween={50} slidesPerView={4} pagination={{ clickable: true }}  loop={true}>
                                 <SwiperSlide>
                                     <div className='brand_img'>
-                                        <img src="/src/assets/sponsor-1.png" alt="" />
+                                        <img src="../src/assets/sponsor-1.png" alt="" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className='brand_img'>
-                                        <img src="/src/assets/sponsor-2.png" alt="" />
+                                        <img src="../src/assets/sponsor-2.png" alt="" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className='brand_img'>
-                                        <img src="/src/assets/sponsor-3.png" alt="" />
+                                        <img src="../src/assets/sponsor-3.png" alt="" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className='brand_img'>
-                                        <img src="/src/assets/sponsor-4.png" alt="" />
+                                        <img src="../src/assets/sponsor-4.png" alt="" />
                                     </div>
                                 </SwiperSlide>
 
                                 <SwiperSlide>
                                     <div className='brand_img'>
-                                        <img src="/src/assets/sponsor-1.png" alt="" />
+                                        <img src="../src/assets/sponsor-1.png" alt="" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className='brand_img'>
-                                        <img src="/src/assets/sponsor-2.png" alt="" />
+                                        <img src="../src/assets/sponsor-2.png" alt="" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className='brand_img'>
-                                        <img src="/src/assets/sponsor-3.png" alt="" />
+                                        <img src="../src/assets/sponsor-3.png" alt="" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className='brand_img'>
-                                        <img src="/src/assets/sponsor-4.png" alt="" />
+                                        <img src="../src/assets/sponsor-4.png" alt="" />
                                     </div>
                                 </SwiperSlide>
                             </Swiper>

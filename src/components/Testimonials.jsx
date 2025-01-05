@@ -29,7 +29,7 @@ const Testimonials = () => {
                                 <SwiperSlide>
                                     <div className='testimonial_card'>
                                         <div className='testimonial_img_content'>
-                                            <img src="/src/assets/testi-author-1.png" alt="" />
+                                            <img src="../src/assets/testi-author-1.png" alt="" />
                                             <div className='testimonial_para'>
                                                 <p>"The course exceeded my expectations in every way. The materials were well-organized and easy to follow, making even the most complex concepts understandable. “</p>
                                             </div>
@@ -54,7 +54,7 @@ const Testimonials = () => {
                                 <SwiperSlide>
                                     <div className='testimonial_card'>
                                         <div className='testimonial_img_content'>
-                                            <img src="/src/assets/testi-author-1.png" alt="" />
+                                            <img src="../src/assets/testi-author-1.png" alt="" />
                                             <div className='testimonial_para'>
                                                 <p>"The course exceeded my expectations in every way. The materials were well-organized and easy to follow, making even the most complex concepts understandable. “</p>
                                             </div>
@@ -79,7 +79,7 @@ const Testimonials = () => {
                                 <SwiperSlide>
                                     <div className='testimonial_card'>
                                         <div className='testimonial_img_content'>
-                                            <img src="/src/assets/testi-author-1.png" alt="" />
+                                            <img src="../src/assets/testi-author-1.png" alt="" />
                                             <div className='testimonial_para'>
                                                 <p>"The course exceeded my expectations in every way. The materials were well-organized and easy to follow, making even the most complex concepts understandable. “</p>
                                             </div>
@@ -104,7 +104,7 @@ const Testimonials = () => {
                                 <SwiperSlide>
                                     <div className='testimonial_card'>
                                         <div className='testimonial_img_content'>
-                                            <img src="/src/assets/testi-author-1.png" alt="" />
+                                            <img src="../src/assets/testi-author-1.png" alt="" />
                                             <div className='testimonial_para'>
                                                 <p>"The course exceeded my expectations in every way. The materials were well-organized and easy to follow, making even the most complex concepts understandable. “</p>
                                             </div>

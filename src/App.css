@@ -37,13 +37,13 @@ font-family: "Lexend", serif;
 .menu_list li{text-decoration: none;list-style: none;margin: 0 10px;font-size: 17px;cursor: pointer;}
 .course_card{box-shadow:rgb(17 12 46 / 8%) 0px 48px 100px 0px;border-radius: 15px;overflow: hidden;}
 .page_title{background-color: azure;padding: 70px 0px;}
-.heading_information_section{padding: 100px 0px;background-image: url("/src/assets/page-header-bg.png");background-position: top;background-repeat: no-repeat;background-size: cover;position: relative;z-index: 2;}
+.heading_information_section{padding: 100px 0px;background-image: url("../src/assets/page-header-bg.png");background-position: top;background-repeat: no-repeat;background-size: cover;position: relative;z-index: 2;}
 .bg_overlay{position: absolute;width: 100%;height: 100%;top: 0;left: 0;z-index: -1;background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 2%, rgba(255,255,255,0.04947916666666663) 100%);}
 .content_box{border-radius: 12px;border: 1px solid #e0e0e0;padding: 30px;width: 70%;}
 .video_sidebar{padding: 40px;}
 
-.main_banner{background-image: url("https://html.rrdevs.net/edcare/assets/img/shapes/hero-shape-12.png");background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;}
+.main_banner{background-image: url("../src/assets/hero-shape-12.png");background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;}
 .banner_left_side{padding: 140px 0px;z-index: 1;}
 .banner_white_vector{position: absolute;left: 0;top: 0;z-index: 0;z-index: -1;opacity: 0.5;}
 .banner_right_img{position: absolute;right: 0;width: 46%;}
@@ -104,7 +104,7 @@ font-family: "Lexend", serif;
 .cta_content h3{font-size: 42px;font-family: var(--bowlby);margin-top: 30px;margin-bottom: 30px;color: var(--white);}
 .cta_content .bolt_icon_div{margin: 0px auto;}
 .cta_content .button{margin: auto;}
-.cta{background-image: url("/src/assets/cta-bg.jpg");background-position: center;background-size: cover;background-repeat: no-repeat;padding: 120px 0px;}
+.cta{background-image: url("../src/assets/cta-bg.jpg");background-position: center;background-size: cover;background-repeat: no-repeat;padding: 120px 0px;}
 /* .cta .overlay{background: rgba(6, 11, 15, 0.75);mix-blend-mode: multiply;width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: -1;} */
 .profile_card{border: 1px solid #E0E5EB;padding: 50px 30px;border-radius: 15px;}
 .profile_card_img{height: 192px;width: 192px;border: 1px solid #E0E5EB;border-radius: 50%;display: flex;align-items: center;justify-content: center;margin: 0 auto;margin-bottom: 20px;transition: all 0.3s ease-in-out;}
@@ -172,7 +172,7 @@ font-family: "Lexend", serif;
 .footer_item h5::after{content: '';width: 18%;height: 3px;background-color: var(--white);position: absolute;bottom: -12px;left: 0;}
 .footer_link p{font-size: 16px;padding: 7px 0px;color: var(--white);cursor: pointer;transition: all 0.3s ease-in-out;cursor: pointer;}
 .footer_link p:hover{color: var(--green);padding-left: 4px;}
-.lowerfooter{background-image: url("/src/assets/footer-bg.png");background-position: center;background-repeat: no-repeat;background-size: cover;padding: 200px 0px 70px;margin-top: -100px;}
+.lowerfooter{background-image: url("../src/assets/footer-bg.png");background-position: center;background-repeat: no-repeat;background-size: cover;padding: 200px 0px 70px;margin-top: -100px;}
 .footer_about p{color: var(--white);padding-right: 70px;font-size: 16px;font-weight: 400;}
 .footer_about img{margin-bottom: 20px;}
 .footer_social_icons{text-align: left;}
