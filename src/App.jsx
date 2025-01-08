@@ -12,6 +12,7 @@ import CourseProgress from './pages/CourseProgress';
 import Footer from './components/Footer';
 import AllCourses from './pages/AllCourses';
 import NotFound from './pages/NotFound';
+import AnimatedCursor from "react-animated-cursor"
 
 function App() {
 
@@ -20,12 +21,42 @@ function App() {
 
   return (
     <div>
+      <AnimatedCursor innerSize={8} style={{ zIndex: 9999 }}
+      outerSize={20}
+      color='7, 166, 152'
+      outerAlpha={0.5}
+      innerScale={0.9}
+      outerScale={5}
+      clickables={[
+        'a',
+        'input[type="text"]',
+        'input[type="email"]',
+        'input[type="number"]',
+        'input[type="submit"]',
+        'input[type="image"]',
+        'label[for]',
+        'select',
+        'textarea',
+        'button',
+        '.link',
+        {
+          target: '.custom',
+          options: {
+            innerSize: 20,
+            outerSize: 22,
+            color: '7, 166, 152',
+            outerAlpha: 0.3,
+            innerScale: 0.7,
+            outerScale: 5
+          }
+        }
+      ]}/>
       <ToastContainer />
       <Navbar />
 
 
       <Routes>
-        <Route path='*' element={<NotFound />}/>
+        <Route path='*' element={<NotFound />} />
         <Route path="/" element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/mylearning' element={<MyLearning />} />

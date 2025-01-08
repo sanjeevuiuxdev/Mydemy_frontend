@@ -5,11 +5,16 @@
     font-family: "Lexend", serif;
 }
 
+html {
+    --cursor-color: #333
+  }
+
 :root {
     --green: #07a698;
     --white: #ffffff;
     --text_gray:#6c706f;
-    --bowlby:"Bowlby One SC", serif
+    --bowlby:"Bowlby One SC", serif;
+    --border:#E0E5EB
   }
 
 /* key frames */
@@ -197,3 +202,7 @@ font-family: "Lexend", serif;
 .navbar_main ul li{transition: all 0.3s ease-in-out;cursor: pointer;}
 .navbar_main ul li:active{color: var(--green);}
 .navbar_main ul li:hover{color: var(--green);}
+.search_box{position: relative;}
+.search_box input{padding: 15px 20px 15px 50px;border: 1px solid var(--border);width: 30%;border-radius: 12px;outline: 1px solid var(--green);margin-bottom: 40px;}
+.search_box .search_icon{position: absolute;left: 20px;transform: translateY(60%);color: var(--green);font-size: 26px;font-weight: bold;}
+/* .search_box input:active{border: 1px solid var(--green);} */

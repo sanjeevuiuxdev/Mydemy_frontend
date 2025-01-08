@@ -22,11 +22,16 @@ const Courses = () => {
           </div>
         </div>
       </div>
-      <div className='grid grid-cols-1 gap-4 md:grid-cols-4'>
+      {publishedCourse.length > 0 ? (<div className='grid grid-cols-1 gap-4 md:grid-cols-4'>
         {publishedCourse.map((item, index) => (
           <Course id={item?._id} key={index} img={item.courseThumbnail} title={item.courseTitle} description={item.description} category={item.category} level={item.courseLevel} price={item.coursePrice} link={`/coursedetail/${item?._id}`} />
         ))}
-      </div>
+      </div>) : (<div style={{textAlign:"center"}}><img style={{width:"150px",margin:"auto"}} src='/assets/loading.gif'/><p style={{fontSize:"20px",fontWeight:"600"}}>Courses Are Loading Please Wait....</p></div>)}
+      {/* <div className='grid grid-cols-1 gap-4 md:grid-cols-4'>
+        {publishedCourse.map((item, index) => (
+          <Course id={item?._id} key={index} img={item.courseThumbnail} title={item.courseTitle} description={item.description} category={item.category} level={item.courseLevel} price={item.coursePrice} link={`/coursedetail/${item?._id}`} />
+        ))}
+      </div> */}
       
     </div>
    </div>
